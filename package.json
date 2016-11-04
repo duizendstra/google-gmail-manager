@@ -1,0 +1,15 @@
+{
+  "name": "google-gmail-manager",
+  "version": "0.0.1",
+  "description": "wrapper for the gmail api",
+  "main": "index.js",
+  "dependencies": {
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jasper Duizendstra <jasper@duizendstra.com> (www.duizendstra.com)",
+  "license": "MIT"
+}

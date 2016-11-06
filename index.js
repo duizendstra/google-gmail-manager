@@ -12,7 +12,7 @@ function googleGmailManager(mainSpecs) {
                 userId: "me"
             }, function (err, response) {
                 if (err) {
-                    reject("The API returned an error: " + err);
+                    reject(err);
                     return;
                 }
                 resolve(response);
